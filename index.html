@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        let a = prompt("enter your first number");
+        let b = prompt("Enter your second number");
+        a=parseInt(a);
+        b=parseInt(b);
+        add();
+        sub();
+        mul();
+        div();
+        mod();
+        exp();
+        /*function add(){
+            let add = a+b;
+            document.write("Your added value is:"+add+"<br>");
+        }
+        function sub(){
+            let sub = a-b;
+            document.writeln("Your sub value is:"+sub+"<br>");
+        }
+        function mul(){
+            let mul = a*b;
+            document.writeln("Your mul value is:"+mul+"<br>");
+        }
+        function div(){
+            let div = a/b;
+            document.writeln("Your div value is:"+div+"<br>");
+        }*/
+        function mod(){
+            let mod = a % b;
+            document.writeln("The remainder is:"+a%b+"<br>");
+        }
+        function exp(){
+            let exp = a**b;
+            document.writeln("Your exp value is:"+(a**b));
+        }
+
+    </script>
+</body>
+</html>
