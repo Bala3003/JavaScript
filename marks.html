@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marklist</title>
+</head>
+<body>
+    <script>
+        let Mark1 = prompt("enter your first mark");
+        let Mark2 = prompt("Enter your second mark");
+        let Mark3 = prompt("Enter your third mark");
+        let Mark4 = prompt("Enter your fourth mark");
+        let Mark5 = prompt("Enter your fifth mark");
+        Mark1=parseInt(Mark1);
+        Mark2=parseInt(Mark2);
+        Mark3=parseInt(Mark3);
+        Mark4=parseInt(Mark4);
+        Mark5=parseInt(Mark5);
+        add();
+        function add (){
+            let total = Mark1+Mark2+Mark3+Mark4+Mark5;
+            document.write("Your total mark is:"+total);
+        }
+    </script>
+</body>
+</html>
